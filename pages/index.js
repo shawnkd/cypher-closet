@@ -33,28 +33,23 @@ export default function Home() {
             height={365}
             priority
           />
+          <h4 className={inter.className}>
+              by os fragiles
+          </h4>
+          
             <h2 className={inter.className}>
-              piece 1
+              t-shirt 1
             </h2>
-            <h4 className={inter.className}>
-              $100
-            </h4>
+            
             <p className={inter.className}>
               a really cool 1 of 1 piece!!
             </p>
             
           </div>
         </div>
-        <footer>
-        <div>
-            <a
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            >
-              <h2 className={inter.className}>powered by cypher labs 🌎
-              </h2>
-            </a>
-          </div>
-        </footer>
+        
+        <div></div>
+        
       </main>
     </>
   )
